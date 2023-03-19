@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Koulen&family=Rubik:wght@500&display=swap");
 //VARS
 $pad-topBot-50: 50px 0;
+$pad-topBot-100: 100px 0;
+$pad-bot-100: 100px;
 $text-center: center;
 $just-center: center;
 $align-center: center;
+$marg-top-100: 100px 0 0 0;
+$marg-topBot-50: 50px 0;
 // RESET
 * {
   box-sizing: border-box;
@@ -106,6 +110,35 @@ header {
         }
       }
     }
+  }
+}
+
+.main__section-cards {
+  text-align: $text-center;
+  justify-content: $just-center;
+  h2 {
+    color: #97b8e1;
+    b {
+      color: #0dcaf0;
+    }
+  }
+  .col-md-12 {
+    margin: $marg-top-100;
+    padding: $pad-topBot-100;
+  }
+  .col {
+    display: flex;
+    justify-content: $just-center;
+  }
+  .btn-primary {
+    background-color: #97b8e1;
+    border-color: #97b8e1;
+  }
+  .card {
+    margin-bottom: 5px;
+  }
+  .row__cards {
+    margin-bottom: 100px;
   }
 }
 

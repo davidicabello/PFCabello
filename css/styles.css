@@ -96,6 +96,35 @@ header .nav-pills a:hover {
   padding: 50px 0;
 }
 
+.main__section-cards {
+  text-align: center;
+  justify-content: center;
+}
+.main__section-cards h2 {
+  color: #97b8e1;
+}
+.main__section-cards h2 b {
+  color: #0dcaf0;
+}
+.main__section-cards .col-md-12 {
+  margin: 100px 0 0 0;
+  padding: 100px 0;
+}
+.main__section-cards .col {
+  display: flex;
+  justify-content: center;
+}
+.main__section-cards .btn-primary {
+  background-color: #97b8e1;
+  border-color: #97b8e1;
+}
+.main__section-cards .card {
+  margin-bottom: 5px;
+}
+.main__section-cards .row__cards {
+  margin-bottom: 100px;
+}
+
 /* SHAPE DIVIDER APP CUSTOM CLASS TOP*/
 .custom-shape-divider-bottom-1660583551 {
   position: absolute;
