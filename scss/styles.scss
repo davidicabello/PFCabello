@@ -189,6 +189,10 @@ header {
 
 footer {
   margin: $marg-top-100;
+  img {
+    width: 18rem;
+    height: auto;
+  }
 }
 /*LOAD CONTAINER*/
 #carga {
