@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Koulen&family=Rubik:wght@500&display=swap");
+//VARS
+$pad-topBot-50: 50px 0;
+$text-center: center;
+$just-center: center;
+$align-center: center;
+// RESET
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+//GENERAL STYLES
+body {
+  background-color: #6965ae;
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  b {
+    color: #97b8e1;
+  }
+
+  a {
+    text-decoration: none;
+    color: #97b8e1;
+    &:hover {
+      color: #0dcaf0;
+    }
+  }
+}
+// HEADER AND NAV STYLES
+header {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 10rem;
+    height: auto;
+  }
+  h1 {
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 10px auto;
+  }
+  p {
+    color: whitesmoke;
+    margin: 0;
+  }
+  .nav-pills {
+    padding: $pad-topBot-50;
+    .nav-link.active {
+      background-color: #97b8e1;
+      &:hover {
+        color: #554078;
+      }
+    }
+    a {
+      color: #97b8e1;
+      &:hover {
+        color: #554078;
+      }
+    }
+  }
+}
+
+//MAIN HERO STYLES
+
+.main__section {
+  position: relative;
+  padding-bottom: 100px;
+  .main__section-title {
+    font-size: 2.5rem;
+  }
+  .row {
+    align-items: center;
+    .main__section-img {
+      text-align: center;
+      padding: $pad-topBot-50;
+      img {
+        border-radius: 10px;
+        max-width: 90%;
+      }
+    }
+  }
+}
+
+//MAIN SECTION SPOTIFY PLAYER
+
+.main__section-spotify {
+  background-color: #fff;
+  position: relative;
+  padding: $pad-topBot-50;
+  .container {
+    .row {
+      align-items: $align-center;
+      .col-md-12 {
+        padding: $pad-topBot-50;
+        h2 {
+          text-align: $text-center;
+        }
+      }
+      .col-md-8 {
+        text-align: $text-center;
+        h3 {
+          padding: $pad-topBot-50;
+        }
+      }
+    }
+  }
+}
+
+/* SHAPE DIVIDER APP CUSTOM CLASS TOP*/
+
+.custom-shape-divider-bottom-1660583551 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  padding: 0%;
+}
+
+.custom-shape-divider-bottom-1660583551 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 97px;
+}
+
+.custom-shape-divider-bottom-1660583551 .shape-fill {
+  fill: #ffffff;
+}
+
+/*SHAPE DIVIDER APP CUSTOM CLASS BOTTOM*/
+.custom-shape-divider-top-1660583816 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  padding: 0%;
+}
+
+.custom-shape-divider-top-1660583816 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 97px;
+}
+
+.custom-shape-divider-top-1660583816 .shape-fill {
+  fill: #ffffff;
+}
