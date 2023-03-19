@@ -74,11 +74,11 @@ header .nav-pills a:hover {
   border-radius: 10px;
   max-width: 90%;
 }
-.main__section .row a {
+.main__section .row .btn-primary {
   background-color: #6f497e;
   border-color: #6f497e;
 }
-.main__section .row a:hover {
+.main__section .row .btn-primary:hover {
   background-color: #97b8e1;
 }
 
@@ -130,6 +130,45 @@ header .nav-pills a:hover {
 }
 .main__section-cards .row__cards {
   margin-bottom: 100px;
+}
+
+.main__section-newsletter {
+  background-color: #fff;
+}
+.main__section-newsletter h2 {
+  margin: 50px 0;
+}
+.main__section-newsletter .btn-primary {
+  background-color: #6f497e;
+  border-color: #6f497e;
+}
+.main__section-newsletter .btn-primary:hover {
+  background-color: #97b8e1;
+}
+
+.main__section-getintouch {
+  padding: 100px 0;
+  text-align: center;
+}
+.main__section-getintouch .row {
+  margin: 50px 0;
+}
+
+.fav-logo i {
+  font-size: 100px;
+  color: #97b8e1;
+}
+
+.fav-logo a:link {
+  font-size: 80px;
+}
+
+.fav-logo i:hover {
+  color: #0dcaf0;
+}
+
+footer {
+  margin: 100px 0 0 0;
 }
 
 /*LOAD CONTAINER*/

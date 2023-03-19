@@ -90,7 +90,7 @@ header {
         max-width: 90%;
       }
     }
-    a {
+    .btn-primary {
       background-color: $color-purple;
       border-color: $color-purple;
       &:hover {
@@ -152,6 +152,43 @@ header {
   .row__cards {
     margin-bottom: $marg-bot-100;
   }
+}
+
+.main__section-newsletter {
+  background-color: #fff;
+  h2 {
+    margin: $marg-topBot-50;
+  }
+  .btn-primary {
+    background-color: $color-purple;
+    border-color: $color-purple;
+    &:hover {
+      background-color: $color-pale-blue;
+    }
+  }
+}
+.main__section-getintouch {
+  padding: $pad-topBot-100;
+  text-align: $text-center;
+  .row {
+    margin: $marg-topBot-50;
+  }
+}
+.fav-logo i {
+  font-size: 100px;
+  color: #97b8e1;
+}
+
+.fav-logo a:link {
+  font-size: 80px;
+}
+
+.fav-logo i:hover {
+  color: #0dcaf0;
+}
+
+footer {
+  margin: $marg-top-100;
 }
 /*LOAD CONTAINER*/
 #carga {
