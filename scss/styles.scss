@@ -35,7 +35,7 @@ body {
     }
   }
 }
-// HEADER AND NAV STYLES
+// HEADER AND NAV STYLES INDEX / ALL
 header {
   margin-top: 40px;
   justify-content: center;
@@ -71,7 +71,7 @@ header {
   }
 }
 
-//MAIN HERO STYLES
+//MAIN HERO STYLES INDEX / ALL
 
 .main__section {
   position: relative;
@@ -100,7 +100,7 @@ header {
   }
 }
 
-//MAIN SECTION SPOTIFY PLAYER
+//MAIN SECTION SPOTIFY PLAYER INDEX
 
 .main__section-spotify {
   background-color: #fff;
@@ -124,7 +124,7 @@ header {
     }
   }
 }
-
+// MAIN CARDS SECTION INDEX
 .main__section-cards {
   text-align: $text-center;
   justify-content: $just-center;
@@ -153,7 +153,7 @@ header {
     margin-bottom: $marg-bot-100;
   }
 }
-
+// MAIN SECTION NEWSLETTER INDEX
 .main__section-newsletter {
   background-color: #fff;
   h2 {
@@ -167,6 +167,8 @@ header {
     }
   }
 }
+
+//MAIN SECTION GET IN TOUCH INDEX
 .main__section-getintouch {
   padding: $pad-topBot-100;
   text-align: $text-center;
@@ -186,15 +188,29 @@ header {
 .fav-logo i:hover {
   color: #0dcaf0;
 }
-
+// FOOTER FOR ALL
 footer {
   margin: $marg-top-100;
   img {
-    width: 18rem;
+    width: 11rem;
     height: auto;
   }
 }
-/*LOAD CONTAINER*/
+
+//MAIN THERAPY
+.main__section__therapy-title {
+  h2 {
+    color: #fff;
+  }
+}
+
+.main__section__therapy {
+  img {
+    width: 14rem;
+    height: auto;
+  }
+}
+/*LOAD CONTAINER FOR ALL*/
 #carga {
   border: 15px solid #ccc;
   border-top-color: #61eace;
@@ -232,7 +248,7 @@ footer {
     transform: rotate(360deg);
   }
 }
-/* SHAPE DIVIDER APP CUSTOM CLASS TOP*/
+/* SHAPE DIVIDER APP CUSTOM CLASS TOP FOR ALL*/
 
 .custom-shape-divider-bottom-1660583551 {
   position: absolute;
@@ -256,7 +272,7 @@ footer {
   fill: #ffffff;
 }
 
-/*SHAPE DIVIDER APP CUSTOM CLASS BOTTOM*/
+/*SHAPE DIVIDER APP CUSTOM CLASS BOTTOM FOR ALL*/
 .custom-shape-divider-top-1660583816 {
   position: absolute;
   top: 0;

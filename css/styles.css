@@ -171,11 +171,20 @@ footer {
   margin: 100px 0 0 0;
 }
 footer img {
-  width: 18rem;
+  width: 11rem;
   height: auto;
 }
 
-/*LOAD CONTAINER*/
+.main__section__therapy-title h2 {
+  color: #fff;
+}
+
+.main__section__therapy img {
+  width: 14rem;
+  height: auto;
+}
+
+/*LOAD CONTAINER FOR ALL*/
 #carga {
   border: 15px solid #ccc;
   border-top-color: #61eace;
@@ -213,7 +222,7 @@ footer img {
     transform: rotate(360deg);
   }
 }
-/* SHAPE DIVIDER APP CUSTOM CLASS TOP*/
+/* SHAPE DIVIDER APP CUSTOM CLASS TOP FOR ALL*/
 .custom-shape-divider-bottom-1660583551 {
   position: absolute;
   bottom: 0;
@@ -236,7 +245,7 @@ footer img {
   fill: #ffffff;
 }
 
-/*SHAPE DIVIDER APP CUSTOM CLASS BOTTOM*/
+/*SHAPE DIVIDER APP CUSTOM CLASS BOTTOM FOR ALL*/
 .custom-shape-divider-top-1660583816 {
   position: absolute;
   top: 0;
