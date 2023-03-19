@@ -74,6 +74,13 @@ header .nav-pills a:hover {
   border-radius: 10px;
   max-width: 90%;
 }
+.main__section .row a {
+  background-color: #6f497e;
+  border-color: #6f497e;
+}
+.main__section .row a:hover {
+  background-color: #97b8e1;
+}
 
 .main__section-spotify {
   background-color: #fff;
