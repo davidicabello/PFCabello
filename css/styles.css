@@ -132,6 +132,44 @@ header .nav-pills a:hover {
   margin-bottom: 100px;
 }
 
+/*LOAD CONTAINER*/
+#carga {
+  border: 15px solid #ccc;
+  border-top-color: #61eace;
+  border-top-style: groove;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation: girar 1.5s linear infinite;
+  animation: girar 1.5s linear infinite;
+}
+
+#contenedor_carga {
+  background-color: #6965ae;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 10000;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* SHAPE DIVIDER APP CUSTOM CLASS TOP*/
 .custom-shape-divider-bottom-1660583551 {
   position: absolute;

@@ -11,6 +11,7 @@ $marg-topBot-50: 50px 0;
 $marg-bot-100: 100px;
 $color-purple: #6f497e;
 $color-pale-blue: #97b8e1;
+$color-background: #6965ae;
 // RESET
 * {
   box-sizing: border-box;
@@ -19,7 +20,7 @@ $color-pale-blue: #97b8e1;
 }
 //GENERAL STYLES
 body {
-  background-color: #6965ae;
+  background-color: $color-background;
   font-family: "Rubik", sans-serif;
   color: #333;
   b {
@@ -152,7 +153,44 @@ header {
     margin-bottom: $marg-bot-100;
   }
 }
+/*LOAD CONTAINER*/
+#carga {
+  border: 15px solid #ccc;
+  border-top-color: #61eace;
+  border-top-style: groove;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation: girar 1.5s linear infinite;
+  animation: girar 1.5s linear infinite;
+}
+#contenedor_carga {
+  background-color: $color-background;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 10000;
+}
 
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* SHAPE DIVIDER APP CUSTOM CLASS TOP*/
 
 .custom-shape-divider-bottom-1660583551 {
