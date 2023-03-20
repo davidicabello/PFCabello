@@ -184,6 +184,23 @@ footer img {
   height: auto;
 }
 
+.team {
+  position: relative;
+}
+.team h1 {
+  color: #fff;
+}
+.team .card {
+  margin: 100px 0 0 0;
+}
+.team .btn-primary {
+  background-color: #6f497e;
+  border-color: #6f497e;
+}
+.team .btn-primary:hover {
+  background-color: #97b8e1;
+}
+
 /*LOAD CONTAINER FOR ALL*/
 #carga {
   border: 15px solid #ccc;

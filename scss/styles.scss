@@ -210,6 +210,24 @@ footer {
     height: auto;
   }
 }
+
+//MAIN TEAM
+.team {
+  position: relative;
+  h1 {
+    color: #fff;
+  }
+  .card {
+    margin: $marg-top-100;
+  }
+  .btn-primary {
+    background-color: $color-purple;
+    border-color: $color-purple;
+    &:hover {
+      background-color: $color-pale-blue;
+    }
+  }
+}
 /*LOAD CONTAINER FOR ALL*/
 #carga {
   border: 15px solid #ccc;
