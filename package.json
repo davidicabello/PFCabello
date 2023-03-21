@@ -1,0 +1,20 @@
+{
+  "name": "preentrega2cabello",
+  "version": "1.0.0",
+  "description": "Pre entrega numero 2 website Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidicabello/PreEntrega2Cabello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidicabello/PreEntrega2Cabello/issues"
+  },
+  "homepage": "https://github.com/davidicabello/PreEntrega2Cabello#readme"
+}
