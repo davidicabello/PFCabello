@@ -1,13 +1,36 @@
-// $('#exampleModal').on('show.bs.modal', function (event) {
-//     var button = $(event.relatedTarget) // Button that triggered the modal
-//     var recipient = button.data('whatever') // Extract info from data-* attributes
-//     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-//     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-//     var modal = $(this)
-//     modal.find('.modal-title').text('New message to ' + recipient)
-//     modal.find('.modal-body input').val(recipient)
-//     console.log('clik')
-// })
+
+(() => {
+    'use strict'
+    const forms = document.querySelectorAll('.needs-validation')
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+        }, false)
+    })
+})()
+
+window.jsPDF = window.jspdf.jsPDF;
+
+$('#send_pdf').click(function () {
+    let doc = new jsPDF();
+    let nombre = $("#form4Example1").val();
+    let mail = $("#form4Example2").val();
+    let form = $("#form4Example3").val();
+    if (nombre === '' || mail === '' || form === '') {
+        return
+    } else {
+        doc.setFontSize(14);
+        doc.text(40, 30, nombre);
+        doc.text(40, 40, mail);
+        doc.text(40, 50, form);
+        doc.save('formulario.pdf');
+    }
+});
+
 
 window.onload = function () {
     let contenedor = document.getElementById('contenedor_carga');

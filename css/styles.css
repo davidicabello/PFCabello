@@ -21,6 +21,10 @@ body a:hover {
   color: #0dcaf0;
 }
 
+section {
+  position: relative;
+}
+
 header {
   margin-top: 40px;
   justify-content: center;
@@ -57,7 +61,6 @@ header .nav-pills a:hover {
 }
 
 .main__section {
-  position: relative;
   padding-bottom: 100px;
 }
 .main__section .main__section-title {

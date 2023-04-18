@@ -36,6 +36,9 @@ body {
   }
 }
 // HEADER AND NAV STYLES INDEX / ALL
+section {
+  position: relative;
+}
 header {
   margin-top: 40px;
   justify-content: center;
@@ -74,8 +77,8 @@ header {
 //MAIN HERO STYLES INDEX / ALL
 
 .main__section {
-  position: relative;
-  padding-bottom: 100px;
+
+  padding-bottom: $pad-bot-100;
   .main__section-title {
     font-size: 2.5rem;
   }
