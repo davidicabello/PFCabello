@@ -13,23 +13,23 @@
     })
 })()
 
-window.jsPDF = window.jspdf.jsPDF;
+// window.jsPDF = window.jspdf.jsPDF;
 
-$('#send_pdf').click(function () {
-    let doc = new jsPDF();
-    let nombre = $("#form4Example1").val();
-    let mail = $("#form4Example2").val();
-    let form = $("#form4Example3").val();
-    if (nombre === '' || mail === '' || form === '') {
-        return
-    } else {
-        doc.setFontSize(14);
-        doc.text(40, 30, nombre);
-        doc.text(40, 40, mail);
-        doc.text(40, 50, form);
-        doc.save('formulario.pdf');
-    }
-});
+// $('#send_pdf').click(function () {
+//     let doc = new jsPDF();
+//     let nombre = $("#form4Example1").val();
+//     let mail = $("#form4Example2").val();
+//     let form = $("#form4Example3").val();
+//     if (nombre === '' || mail === '' || form === '') {
+//         return
+//     } else {
+//         doc.setFontSize(14);
+//         doc.text(40, 30, nombre);
+//         doc.text(40, 40, mail);
+//         doc.text(40, 50, form);
+//         doc.save('formulario.pdf');
+//     }
+// });
 
 
 window.onload = function () {
