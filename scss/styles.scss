@@ -7,6 +7,7 @@ $text-center: center;
 $just-center: center;
 $align-center: center;
 $marg-top-100: 100px 0 0 0;
+$marg-top-50: 50px 0 0 0;
 $marg-topBot-50: 50px 0;
 $marg-bot-100: 100px;
 $color-purple: #6f497e;
@@ -174,7 +175,7 @@ header {
 
 //MAIN SECTION GET IN TOUCH INDEX
 .main__section-getintouch {
-  padding: $pad-topBot-100;
+  padding: $pad-topBot-50;
   text-align: $text-center;
   .row {
     margin: $marg-topBot-50;
@@ -183,10 +184,18 @@ header {
     color: whitesmoke;
   }
   h4 {
-    color: whitesmoke;
+    color: #0dcaf0;
   }
   p {
-    color: #97b8e1;
+    color: whitesmoke;
+  }
+}
+.newsletter_form {
+  label {
+    color: whitesmoke;
+  }
+  .form-text {
+    color: #0dcaf0;
   }
 }
 .fav-logo i {
@@ -227,6 +236,9 @@ footer {
 //MAIN TEAM
 .team {
   position: relative;
+  .modal-title {
+    color: #333;
+  }
   h1 {
     color: #fff;
   }
@@ -234,7 +246,7 @@ footer {
     color: whitesmoke;
   }
   .card {
-    margin: $marg-top-100;
+    margin: $marg-top-50;
   }
   .btn-primary {
     background-color: $color-purple;
@@ -242,6 +254,28 @@ footer {
     &:hover {
       background-color: $color-pale-blue;
     }
+  }
+}
+
+//ABOUT STYLES
+
+.contact_form {
+  .btn-primary {
+    background-color: #97b8e1;
+    border-color: #97b8e1;
+  }
+  label {
+    color: whitesmoke;
+  }
+  .form-check-input:invalid ~ .form-check-label {
+    color: orangered;
+  }
+  .invalid-feedback {
+    color: orangered;
+    font-size: 1em;
+  }
+  .valid-feedback {
+    color: greenyellow;
   }
 }
 /*LOAD CONTAINER FOR ALL*/
@@ -258,8 +292,6 @@ footer {
   right: 0;
   bottom: 0;
   margin: auto;
-  -webkit-animation: girar 1.5s linear infinite;
-  -o-animation: girar 1.5s linear infinite;
   animation: girar 1.5s linear infinite;
 }
 #contenedor_carga {
@@ -267,8 +299,6 @@ footer {
   position: fixed;
   height: 100%;
   width: 100%;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 10000;
 }

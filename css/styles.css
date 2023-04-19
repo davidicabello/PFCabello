@@ -153,7 +153,7 @@ header .nav-pills a:hover {
 }
 
 .main__section-getintouch {
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 .main__section-getintouch .row {
@@ -163,10 +163,17 @@ header .nav-pills a:hover {
   color: whitesmoke;
 }
 .main__section-getintouch h4 {
-  color: whitesmoke;
+  color: #0dcaf0;
 }
 .main__section-getintouch p {
-  color: #97b8e1;
+  color: whitesmoke;
+}
+
+.newsletter_form label {
+  color: whitesmoke;
+}
+.newsletter_form .form-text {
+  color: #0dcaf0;
 }
 
 .fav-logo i {
@@ -202,6 +209,9 @@ footer img {
 .team {
   position: relative;
 }
+.team .modal-title {
+  color: #333;
+}
 .team h1 {
   color: #fff;
 }
@@ -209,7 +219,7 @@ footer img {
   color: whitesmoke;
 }
 .team .card {
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
 }
 .team .btn-primary {
   background-color: #6f497e;
@@ -217,6 +227,24 @@ footer img {
 }
 .team .btn-primary:hover {
   background-color: #97b8e1;
+}
+
+.contact_form .btn-primary {
+  background-color: #97b8e1;
+  border-color: #97b8e1;
+}
+.contact_form label {
+  color: whitesmoke;
+}
+.contact_form .form-check-input:invalid ~ .form-check-label {
+  color: orangered;
+}
+.contact_form .invalid-feedback {
+  color: orangered;
+  font-size: 1em;
+}
+.contact_form .valid-feedback {
+  color: greenyellow;
 }
 
 /*LOAD CONTAINER FOR ALL*/
@@ -233,8 +261,6 @@ footer img {
   right: 0;
   bottom: 0;
   margin: auto;
-  -webkit-animation: girar 1.5s linear infinite;
-  -o-animation: girar 1.5s linear infinite;
   animation: girar 1.5s linear infinite;
 }
 
@@ -243,8 +269,6 @@ footer img {
   position: fixed;
   height: 100%;
   width: 100%;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 10000;
 }
