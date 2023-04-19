@@ -77,12 +77,13 @@ header {
 //MAIN HERO STYLES INDEX / ALL
 
 .main__section {
-
   padding-bottom: $pad-bot-100;
   .main__section-title {
     font-size: 2.5rem;
   }
-
+  h2 {
+    color: whitesmoke;
+  }
   .row {
     align-items: center;
     .main__section-img {
@@ -178,6 +179,15 @@ header {
   .row {
     margin: $marg-topBot-50;
   }
+  h2 {
+    color: whitesmoke;
+  }
+  h4 {
+    color: whitesmoke;
+  }
+  p {
+    color: #97b8e1;
+  }
 }
 .fav-logo i {
   font-size: 100px;
@@ -219,6 +229,9 @@ footer {
   position: relative;
   h1 {
     color: #fff;
+  }
+  h2 {
+    color: whitesmoke;
   }
   .card {
     margin: $marg-top-100;

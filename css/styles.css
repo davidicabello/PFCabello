@@ -66,6 +66,9 @@ header .nav-pills a:hover {
 .main__section .main__section-title {
   font-size: 2.5rem;
 }
+.main__section h2 {
+  color: whitesmoke;
+}
 .main__section .row {
   align-items: center;
 }
@@ -156,6 +159,15 @@ header .nav-pills a:hover {
 .main__section-getintouch .row {
   margin: 50px 0;
 }
+.main__section-getintouch h2 {
+  color: whitesmoke;
+}
+.main__section-getintouch h4 {
+  color: whitesmoke;
+}
+.main__section-getintouch p {
+  color: #97b8e1;
+}
 
 .fav-logo i {
   font-size: 100px;
@@ -192,6 +204,9 @@ footer img {
 }
 .team h1 {
   color: #fff;
+}
+.team h2 {
+  color: whitesmoke;
 }
 .team .card {
   margin: 100px 0 0 0;
