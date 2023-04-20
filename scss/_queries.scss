@@ -2,7 +2,21 @@
   .listen-btn {
     margin-top: 5px;
   }
-  .logo-footer {
-    width: 10rem;
+  footer {
+    img {
+      width: 10rem;
+    }
   }
-} ;
+}
+
+@media only screen and (max-width: 767px) {
+  .listen-btn {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  .listen-btn {
+    margin-top: 5px;
+  }
+}
