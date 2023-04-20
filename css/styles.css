@@ -53,6 +53,9 @@ header .nav-pills .nav-link.active {
 header .nav-pills .nav-link.active:hover {
   color: #554078;
 }
+header .nav-pills .nav-link.listen-btn {
+  background-color: #0dcaf0;
+}
 header .nav-pills a {
   color: #97b8e1;
 }

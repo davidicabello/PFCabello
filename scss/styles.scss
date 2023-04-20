@@ -58,6 +58,7 @@ header {
     color: whitesmoke;
     margin: 0;
   }
+
   .nav-pills {
     padding: $pad-topBot-50;
     .nav-link.active {
@@ -66,6 +67,10 @@ header {
         color: #554078;
       }
     }
+    .nav-link.listen-btn {
+      background-color: #0dcaf0;
+    }
+
     a {
       color: #97b8e1;
       &:hover {
