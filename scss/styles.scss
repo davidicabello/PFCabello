@@ -214,7 +214,7 @@ header {
 footer {
   margin: $marg-top-100;
   img {
-    width: 11rem;
+    width: 12rem;
     height: auto;
   }
 }
@@ -254,6 +254,14 @@ footer {
     &:hover {
       background-color: $color-pale-blue;
     }
+  }
+}
+
+//SOCIALS STYLES
+
+.socials-white {
+  h3 {
+    color: whitesmoke;
   }
 }
 
@@ -302,16 +310,6 @@ footer {
   transition: all 1s ease;
   z-index: 10000;
 }
-
-@keyframes girar {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
 /* SHAPE DIVIDER APP CUSTOM CLASS TOP FOR ALL*/
 
 .custom-shape-divider-bottom-1660583551 {
@@ -357,3 +355,15 @@ footer {
 .custom-shape-divider-top-1660583816 .shape-fill {
   fill: #ffffff;
 }
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import "queries";

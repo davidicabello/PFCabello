@@ -193,7 +193,7 @@ footer {
   margin: 100px 0 0 0;
 }
 footer img {
-  width: 11rem;
+  width: 12rem;
   height: auto;
 }
 
@@ -227,6 +227,10 @@ footer img {
 }
 .team .btn-primary:hover {
   background-color: #97b8e1;
+}
+
+.socials-white h3 {
+  color: whitesmoke;
 }
 
 .contact_form .btn-primary {
@@ -273,14 +277,6 @@ footer img {
   z-index: 10000;
 }
 
-@keyframes girar {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /* SHAPE DIVIDER APP CUSTOM CLASS TOP FOR ALL*/
 .custom-shape-divider-bottom-1660583551 {
   position: absolute;
@@ -324,6 +320,23 @@ footer img {
 
 .custom-shape-divider-top-1660583816 .shape-fill {
   fill: #ffffff;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .listen-btn {
+    margin-top: 5px;
+  }
+  .logo-footer {
+    width: 10rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
